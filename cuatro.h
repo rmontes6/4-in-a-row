@@ -1,0 +1,14 @@
+void Inicializacion(char[N][N]);
+void Inicializacion2(char[N][N]);
+void ImprimirTablero(char [N][N]);
+void CopiarTablero(char[N][N], char[N][N]);
+int ColumnasNoLlenas (char[N][N]);
+void JugadaJugador(char [N][N]);
+void Jugada(char[N][N], int);
+void TirarFicha(char[N][N], int, char);
+int GanadorJugador(char[N][N]);
+int GanadorMaquina(char[N][N]);
+int MirarAltura(char[N][N],int);
+int Heuristica (char[N][N],int);
+int JugadaMaquina(char[N][N],int);
+void Inicio();
